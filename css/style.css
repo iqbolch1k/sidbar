@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+ul >li{
+    list-style-type: none
+}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 100%;
+    font-family: "Epilogue", sans-serif;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+
+}
+header{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #d4d2d2;
+}
+header .header-logo{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    color: #5D7285;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    
+}
+header nav ul li{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+
+header nav ul li:hover{
+    background-color: #ccd4dbba;
+    border-radius: 5px;
+    color: #0C7FDA;
+}
+header nav ul li:hover a{
+    color: #0C7FDA;
+
+}
+header nav ul i{
+    margin-right: 0.6rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 30px;
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+main .main-navbar{
+    padding: 2.2rem;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .main-navbar .main-navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+main .main-navbar i{
+    font-size: 2rem;
+    color: #5FB3F6;
+    cursor: pointer;
+}
+main .main-navbar img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+main .main-tables{
+    padding: 1.2rem;
+    background-color: #E2E7EB;
+    height: 100%;
+}
+main .main-tables h1{
+    color: #5D7285;
+}
